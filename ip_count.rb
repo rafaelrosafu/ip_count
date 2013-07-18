@@ -28,7 +28,7 @@ def get_domain_head(domain)
   end
 end
 
-if __FILE__ == 'ip_ranges.rb'
+if __FILE__ == 'ip_count.rb'
   target_company = ARGV.first
 
   if target_company.nil?
